@@ -17,16 +17,15 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="col-lg-8 project-section ">
-                    <div className="project project-2 d-flex justify-content-center align-items-center position-relative">
-
-                        <h3 className="text-center position-absolute">Residential Project <br /> Krutionela</h3>
-                    </div>
+                    <a href="https://tanmay996.github.io/migration-to-canada.github.io/#1"target='_blank' className="project project-2 d-flex justify-content-center align-items-center position-relative">
+                        <h3 className="text-center position-absolute">Educational Website <br /> Migration to Canada</h3>
+                    </a>
                 </div>
                 <div className="col-lg-8 project-section ">
-                    <div className="project project-3 d-flex justify-content-center align-items-center position-relative">
+                    <a href="https://tanmay996.github.io/krutionella.github.io/" target='_blank'  className="project project-3 d-flex justify-content-center align-items-center position-relative">
 
-                        <h3 className="text-center position-absolute">Educational Website <br /> Migration to Canada</h3>
-                    </div>
+                        <h3 className="text-center position-absolute">Residential Project <br /> Krutionela</h3>
+                    </a>
                 </div>
                 <div className="col-lg-4 project-section ">
                     <div className="project project-1 d-flex justify-content-center align-items-center position-relative">
