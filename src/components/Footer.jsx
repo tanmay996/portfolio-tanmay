@@ -1,7 +1,7 @@
 import React from 'react'
 export default function Footer() {
     return (
-        <div className='container'>
+        <div className='container mt-5'>
             <div className="footer">
                 <div className="row">
                     <div className="col-md">
@@ -44,6 +44,7 @@ export default function Footer() {
                         <li><a href='#'><span><i className="bi bi-instagram fs-4"></i></span></a></li>
                    </ul>
                 </div>
+                <p className='text-center'>Copyright ©2023 All rights reserved | This template is made with  by Tanmay bhunia</p>
                
             </div>
         </div>

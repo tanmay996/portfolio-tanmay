@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Skill() {
     return (
-        <div className="container">
-            <div className="skill p-3">
+        <div className="container" >
+            <div className="skill p-3" id='skill'>
                 <div className='heading text-center'>
                     <span className="heading-1">Skill</span>
                     <span className="heading-2 head-2">Skill</span>

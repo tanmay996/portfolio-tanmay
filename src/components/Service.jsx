@@ -37,7 +37,7 @@ export default function Service() {
                     <span className="heading-2 head-2">Service</span>
                 </div>
                 <div className="row mt-5 pt-4">
-                    <div className="col-lg-4 col-md-6 mb-5">
+                    <div className="col-lg-4 col-md-6 ">
                         <div className='service-section'>
                             <div className="icon text-center mb-5">
                                 <i className="n-icon" data-icon="design"></i>
@@ -45,7 +45,7 @@ export default function Service() {
                             <h3 className="service-text position-relative text-center">WEB DESIGN</h3>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 mb-5">
+                    <div className="col-lg-4 col-md-6 ">
                         <div className='service-section'>
                             <div className="icon text-center mb-5">
                             <i className="n-icon" data-icon="developer"></i>
@@ -53,7 +53,7 @@ export default function Service() {
                             <h3 className="service-text position-relative text-center">WEB Developer</h3>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 mb-5">
+                    <div className="col-lg-4 col-md-6 ">
                         <div className='service-section'>
                             <div className="icon text-center mb-5">
                                 <i className="n-icon" data-icon="frontend-developer" ></i>

@@ -27,6 +27,9 @@ export default function Header() {
              <a className="nav-link" href="#resume "  data-target="#resume">Resume</a>
            </li>
            <li className="nav-item position-relative">
+             <a className="nav-link" href="#skill "  data-target="#skill">Skill</a>
+           </li>
+           <li className="nav-item position-relative">
              <a className="nav-link" href="#service"  data-target="#service">Services</a>
            </li>
            <li className="nav-item position-relative">

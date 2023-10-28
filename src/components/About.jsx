@@ -4,8 +4,8 @@ import React from 'react'
 export default function About() {
     return (
 
-        <div className="container about p-0 py-5" id="about">
-            <div className="row  mx-auto mt-5">
+        <div className="container about" id="about">
+            <div className="row  mx-auto">
             <div className="col-lg-5 col-md-6 d-none d-md-block">
                 <div className="about-img"></div>
             </div>

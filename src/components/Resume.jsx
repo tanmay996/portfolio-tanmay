@@ -2,7 +2,7 @@ import React from 'react'
 // import svgicon from "./svgicon"
 export default function Resume() {
   return (
-    <div className="container" id="resume">
+    <div className="container " id="resume">
       <div className='heading text-center'>
         <span className="heading-1">Resume</span>
         <span className="heading-2 head-2">Resume</span>
@@ -47,7 +47,7 @@ export default function Resume() {
           </div>
         </div>
       </div>
-      <div className="d-flex justify-content-md-center p-5">
+      <div className="d-flex justify-content-md-center pt-5">
         <a href="../pdf/TanmayBhunia_Resume.pdf" className="btn btn-download py-3 px-3 " download>DOWNLOAD CV</a>
       </div>
     </div>

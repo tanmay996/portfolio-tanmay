@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contanct() {
    
     return (
-        <div className='container mb-5' id='contact'>
+        <div className='container' id='contact'>
             <div className="contact p-3">
                 <div className='heading text-center'>
                     <span className="heading-1">Contact Me</span>
@@ -49,7 +49,7 @@ export default function Contanct() {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row flex-column-reverse flex-md-row">
                     <div className="col-md-6 px-0">
                         <div className="contact-img">
 
