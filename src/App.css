@@ -51,6 +51,7 @@ body{
   background-color: #ffbd39;
   position: absolute;
 }
+
 .active{
   color: #ffbd39 !important;
 }
@@ -187,6 +188,23 @@ body{
   transition: .3s all ease;
   background-color:rgba(255, 255, 255, 0.1);
 }
+.design1 , 
+.person1,
+.frontend-developer1{
+  display: none;
+} 
+.service-section:hover .design,
+.service-section:hover .person,
+.service-section:hover .frontend-developer{
+    display: none;
+}
+
+.service-section:hover .design1,
+.service-section:hover .person1,
+.service-section:hover .frontend-developer1
+{
+  display: block;
+}
 
 .service-text{
   color: #fff;
@@ -246,7 +264,6 @@ body{
 /* Project style start here */
 .project-section{
   height: 280px;
-  /* border: 2px solid #ffbd39; */
   margin-bottom: 30px;
   
 }
@@ -267,6 +284,7 @@ body{
     border: 3px solid #ffbd39;
     background-color: #ffbd39;
   }
+
   .project h3{
     top: 15%;
     transition:0.5s ease-in-out all;
@@ -276,25 +294,24 @@ body{
   }
   .project-1{
     cursor:not-allowed;
-    
     background: url("./components/image/meeting.jpeg") no-repeat center;
-    /* background-size: contain; */
+   
     background-size: cover;
-    background-position:100% 0%;
+    /* background-position:100% 0%; */
   }
   .project-2{
     cursor:pointer;
     background: url("./components/image/migration.jpg") no-repeat center;
-    background-size: contain;
+   
     background-size: cover;
-    background-position:100% 0%;
+    /* background-position:100% 0%; */
   }
   .project-3{
     cursor:pointer;
     background: url("./components/image/Krutionelaa.jpg") no-repeat center;
-    background-size: contain;
+   
     background-size: cover;
-    background-position:100% 0%;
+    /* background-position:100% 0%; */
   }
   .project::after{
     content: '';
@@ -307,7 +324,22 @@ body{
     background-color: rgba(255, 189, 57, 0);
     position: absolute;
   }
-
+  .live{
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    padding: 5px 10px;
+    background-color: #ffbd39;
+    color: #000000;
+    z-index: 1;
+    transition: 1s ease-in all;
+    
+  }
+  .project-section:hover .live{
+    background-color: #ffffff;
+    color: #000000;
+  }
 /* conatct style start here */
 
 .contact-icon{
@@ -409,6 +441,11 @@ body{
   .container{
     max-width: 100% !important;
   }
+  .nav-link::after{
+
+    background-color: #ffffff;
+
+  }
   .resume-section{
     width: 100% ;
   }
@@ -444,7 +481,12 @@ body{
   .project{
     height: 350px;
   }
-  
+  .project-1{
+    background-position: 0% 55%;
+  }
+  .project-3{
+    background-position: 0% 0%;
+  }
 
 }
 @media (max-width:767px){
@@ -454,8 +496,6 @@ body{
   .heading-2{
     left: 50%;
     transform: translate(-50%,0%);
-   
-    
   }
   .heading{
     text-align: center;
@@ -474,11 +514,14 @@ body{
   }
   .heading-2{
     font-size: 100px;
-    /* left: 180px; */
 
 }
 .contact-img{
   height: 350px;
+}
+.project-3{
+  /* background-size: 100% 100%; */
+  background-position:50% 0% ;
 }
 }
 @media  (max-width:575px){

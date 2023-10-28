@@ -44,7 +44,7 @@ export default function Footer() {
                         <li><a href='#'><span><i className="bi bi-instagram fs-4"></i></span></a></li>
                    </ul>
                 </div>
-                <p className='text-center'>Copyright ©2023 All rights reserved | This template is made with  by Tanmay bhunia</p>
+                <p className='text-center'>Copyright ©2023 All rights reserved | This template is made by Tanmay bhunia</p>
                
             </div>
         </div>
