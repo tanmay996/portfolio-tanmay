@@ -3,7 +3,7 @@ import resume from './pdf/Tanmay_Bhunja_Resume.pdf'
 
 export default function Resume() {
   return (
-    <div className="container " id="resume">
+    <div className="container " id="resume" data-aos="fade-up" data-aos-duration="1000">
       <div className='heading text-center'>
         <span className="heading-1">Resume</span>
         <span className="heading-2 head-2">Resume</span>

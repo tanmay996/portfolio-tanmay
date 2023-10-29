@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contanct() {
    
     return (
-        <div className='container' id='contact'>
+        <div className='container' id='contact' data-aos="fade-up" data-aos-duration="1000">
             <div className="contact p-3">
                 <div className='heading text-center'>
                     <span className="heading-1">Contact Me</span>

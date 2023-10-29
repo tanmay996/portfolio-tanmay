@@ -2,7 +2,7 @@ import React from 'react'
 export default function Project() {
     return (
 
-        <div className="container" id='project'>
+        <div className="container" id='project' data-aos="fade-up" data-aos-duration="1000">
 
             <div className='heading text-center pb-3'>
                 <span className="heading-1">My Projects</span>

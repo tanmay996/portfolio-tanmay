@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Skill() {
     return (
-        <div className="container" >
+        <div className="container" data-aos="fade-up" data-aos-duration="1000" >
             <div className="skill p-3" id='skill'>
                 <div className='heading text-center'>
                     <span className="heading-1">Skill</span>

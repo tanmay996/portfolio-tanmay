@@ -40,7 +40,7 @@ export default function Service() {
 
      
     return (
-        <div className="container" id="service">
+        <div className="container" id="service" data-aos="fade-up" data-aos-duration="1000">
             <div className="service p-3">
                 <div className='heading text-center '>
                     <span className="heading-1">Service</span>
