@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio-tanmay/static/css/main.474dc1ce.css",
-    "main.js": "/portfolio-tanmay/static/js/main.04cc2b0a.js",
+    "main.js": "/portfolio-tanmay/static/js/main.d6d7fdf8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-tanmay/static/js/787.1ed0c42c.chunk.js",
     "static/media/meeting.jpeg": "/portfolio-tanmay/static/media/meeting.fab9062e09afa7aaacca.jpeg",
     "static/media/migration.jpg": "/portfolio-tanmay/static/media/migration.169d6c42a83a5c57a385.jpg",
     "static/media/aboutrb.png": "/portfolio-tanmay/static/media/aboutrb.68afbcd02d942080708d.png",
     "static/media/Krutionelaa.jpg": "/portfolio-tanmay/static/media/Krutionelaa.65903538eeb8842841f0.jpg",
+    "static/media/Tanmay_Bhunja_Resume.pdf": "/portfolio-tanmay/static/media/Tanmay_Bhunja_Resume.3bca8de76b87c77fa09e.pdf",
     "static/media/about.jpg": "/portfolio-tanmay/static/media/about.8ec2b9e22a1bd77bc0cf.jpg",
     "index.html": "/portfolio-tanmay/index.html",
     "main.474dc1ce.css.map": "/portfolio-tanmay/static/css/main.474dc1ce.css.map",
-    "main.04cc2b0a.js.map": "/portfolio-tanmay/static/js/main.04cc2b0a.js.map",
+    "main.d6d7fdf8.js.map": "/portfolio-tanmay/static/js/main.d6d7fdf8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-tanmay/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.474dc1ce.css",
-    "static/js/main.04cc2b0a.js"
+    "static/js/main.d6d7fdf8.js"
   ]
 }
