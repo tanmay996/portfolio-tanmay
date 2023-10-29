@@ -22,10 +22,10 @@ export default function Footer() {
                     <div className="col-md mb-4 mb-md-0">
                         <h2>Services</h2>
                         <ul className="list-unstyled">
-                            <li><i className="bi bi-arrow-right me-2"></i>Web Design</li>
-                            <li><i className="bi bi-arrow-right me-2"></i>Web Development</li>
-                            <li><i className="bi bi-arrow-right me-2"></i>Frontend Development</li>
-                            <li><i className="bi bi-arrow-right me-2"></i>SEO</li>
+                            <li><i className="bi bi-laptop me-2"></i>Web Design</li>
+                            <li><i className="bi bi-laptop me-2"></i>Web Development</li>
+                            <li><i className="bi bi-laptop me-2"></i>Frontend Development</li>
+                            <li><i className="bi bi-laptop me-2"></i>SEO</li>
                         </ul>
                     </div>
                     <div className="col-md">
