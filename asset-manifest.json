@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-tanmay/static/css/main.b90c8980.css",
-    "main.js": "/portfolio-tanmay/static/js/main.031a2d89.js",
+    "main.css": "/portfolio-tanmay/static/css/main.e600f4b6.css",
+    "main.js": "/portfolio-tanmay/static/js/main.576aa54a.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-tanmay/static/js/787.1ed0c42c.chunk.js",
     "static/media/meeting.jpeg": "/portfolio-tanmay/static/media/meeting.fab9062e09afa7aaacca.jpeg",
     "static/media/migration.jpg": "/portfolio-tanmay/static/media/migration.169d6c42a83a5c57a385.jpg",
@@ -9,12 +9,12 @@
     "static/media/Krutionelaa.jpg": "/portfolio-tanmay/static/media/Krutionelaa.65903538eeb8842841f0.jpg",
     "static/media/about.jpg": "/portfolio-tanmay/static/media/about.8ec2b9e22a1bd77bc0cf.jpg",
     "index.html": "/portfolio-tanmay/index.html",
-    "main.b90c8980.css.map": "/portfolio-tanmay/static/css/main.b90c8980.css.map",
-    "main.031a2d89.js.map": "/portfolio-tanmay/static/js/main.031a2d89.js.map",
+    "main.e600f4b6.css.map": "/portfolio-tanmay/static/css/main.e600f4b6.css.map",
+    "main.576aa54a.js.map": "/portfolio-tanmay/static/js/main.576aa54a.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-tanmay/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b90c8980.css",
-    "static/js/main.031a2d89.js"
+    "static/css/main.e600f4b6.css",
+    "static/js/main.576aa54a.js"
   ]
 }
