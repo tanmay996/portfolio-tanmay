@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from './pdf/Tanmay_Bhunja_Resume.pdf'
 
 
 export default function About() {
@@ -45,7 +46,7 @@ export default function About() {
                         </tbody>
                     </table>
                     
-                    <button className="btn btn-download py-3 px-3 ">DOWNLOAD CV</button>
+                    <a href={resume} className="btn btn-download py-3 px-3" download>DOWNLOAD CV</a>
                 </div>
             </div>
         </div>

@@ -38,10 +38,13 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="social mt-5">
-                   <ul className="list-unstyled">
+                   <ul className="list-unstyled text-center text-md-start">
                         <li><a href='https://twitter.com/tanmay_bhunia16' target="_blank" ><span><i className="bi bi-twitter fs-4"></i></span></a></li>
                         <li><a href='https://www.facebook.com/tanmaybhuniatb' target="_blank" ><span><i className="bi bi-facebook fs-4"></i></span></a></li>
                         <li><a href='https://www.instagram.com/_tanmay.t/' target="_blank" ><span><i className="bi bi-instagram fs-4"></i></span></a></li>
+                        <li><a href='https://www.linkedin.com/in/tanmay-bhunia-481a1524b/' target="_blank" ><span><i className="bi bi-linkedin fs-4"></i></span></a></li>
+                        <li><a href='https://github.com/tanmay996' target="_blank" ><span><i className="bi bi-github fs-4"></i></span></a></li>
+
                    </ul>
                 </div>
                 <p className='text-center'>Copyright ©2023 All rights reserved | This template is made by Tanmay bhunia</p>

@@ -1,5 +1,6 @@
 import React from 'react'
-// import svgicon from "./svgicon"
+import resume from './pdf/Tanmay_Bhunja_Resume.pdf'
+
 export default function Resume() {
   return (
     <div className="container " id="resume">
@@ -48,7 +49,7 @@ export default function Resume() {
         </div>
       </div>
       <div className="d-flex justify-content-md-center pt-5">
-        <a href="../pdf/TanmayBhunia_Resume.pdf" className="btn btn-download py-3 px-3 " download>DOWNLOAD CV</a>
+        <a href={resume}  className="btn btn-download py-3 px-3 " download>DOWNLOAD CV</a>
       </div>
     </div>
   )
