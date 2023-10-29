@@ -1,7 +1,6 @@
 import 'bootstrap/js/dist/offcanvas';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-import "./svgicon";
 import Header from './components/Header';
 import About from './components/About';
 import Resume from './components/Resume';
