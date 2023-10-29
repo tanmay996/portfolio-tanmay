@@ -4,13 +4,13 @@ export default function Footer() {
         <div className='container mt-5'>
             <div className="footer">
                 <div className="row">
-                    <div className="col-md mb-4 mb-md-0">
-                        <h2>About</h2>
+                    <div className="col-md mb-4 mb-md-0" >
+                        <h2  data-aos="zoom-in">About</h2>
                         <p>
                         "Frontend developer proficient in HTML, CSS, JavaScript, Bootstrap, and React JS. Committed to creating attractive, user-friendly web interfaces."
                         </p>
                     </div>
-                    <div className="col-md mb-4 mb-md-0">
+                    <div className="col-md mb-4 mb-md-0" >
                         <h2>Links</h2>
                         <ul className="list-unstyled">
                             <li><i className="bi bi-house-up me-2"></i><a href=''>Home</a></li>
@@ -19,7 +19,7 @@ export default function Footer() {
                             <li><i className="bi bi-stack me-2"></i><a href='#project'>Projects</a></li>
                         </ul>
                     </div>
-                    <div className="col-md mb-4 mb-md-0">
+                    <div className="col-md mb-4 mb-md-0" >
                         <h2>Services</h2>
                         <ul className="list-unstyled">
                             <li><i className="bi bi-laptop me-2"></i>Web Design</li>
@@ -37,13 +37,13 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className="social mt-5">
+                <div className="social mt-4 mt-md-5" data-aos="fade-up" data-aos-duration="1000" >
                    <ul className="list-unstyled text-center text-md-start">
-                        <li><a href='https://twitter.com/tanmay_bhunia16' target="_blank" ><span><i className="bi bi-twitter fs-4"></i></span></a></li>
+                        <li ><a href='https://twitter.com/tanmay_bhunia16' target="_blank"><span><i className="bi bi-twitter fs-4"></i></span></a></li>
                         <li><a href='https://www.facebook.com/tanmaybhuniatb' target="_blank" ><span><i className="bi bi-facebook fs-4"></i></span></a></li>
-                        <li><a href='https://www.instagram.com/_tanmay.t/' target="_blank" ><span><i className="bi bi-instagram fs-4"></i></span></a></li>
+                        <li><a href='https://www.instagram.com/_tanmay.t/' target="_blank"><span><i className="bi bi-instagram fs-4"></i></span></a></li>
                         <li><a href='https://www.linkedin.com/in/tanmay-bhunia-481a1524b/' target="_blank" ><span><i className="bi bi-linkedin fs-4"></i></span></a></li>
-                        <li><a href='https://github.com/tanmay996' target="_blank" ><span><i className="bi bi-github fs-4"></i></span></a></li>
+                        <li><a href='https://github.com/tanmay996' target="_blank"><span><i className="bi bi-github fs-4"></i></span></a></li>
 
                    </ul>
                 </div>

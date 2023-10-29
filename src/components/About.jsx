@@ -5,7 +5,7 @@ import resume from './pdf/Tanmay_Bhunja_Resume.pdf'
 export default function About() {
     return (
 
-        <div className="container about" id="about" data-aos="fade-up" data-aos-duration="1000">
+        <div className="container about" id="about" data-aos="fade-up" data-aos-duration="1000" >
             <div className="row  mx-auto">
             <div className="col-lg-5 col-md-6 d-none d-md-block">
                 <div className="about-img"></div>
@@ -46,7 +46,7 @@ export default function About() {
                         </tbody>
                     </table>
                     
-                    <a href={resume} className="btn btn-download py-3 px-3" download>DOWNLOAD CV</a>
+                    <a href={resume} className="btn btn-download py-3 px-3" download >DOWNLOAD CV</a>
                 </div>
             </div>
         </div>

@@ -40,14 +40,14 @@ export default function Service() {
 
      
     return (
-        <div className="container" id="service" data-aos="fade-up" data-aos-duration="1000">
+        <div className="container" id="service" data-aos="fade-up" data-aos-duration="1000" >
             <div className="service p-3">
                 <div className='heading text-center '>
                     <span className="heading-1">Service</span>
                     <span className="heading-2 head-2">Service</span>
                 </div>
-                <div className="row mt-5 pt-4">
-                    <div className="col-lg-4 col-md-6 mb-4 mb-lg-0" >
+                <div className="row mt-5 pt-4" >
+                    <div className="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1000" >
                         <div className='service-section'>
                             <div className="icon text-center mb-5" >
 
@@ -58,7 +58,7 @@ export default function Service() {
                             <h3 className="service-text position-relative text-center">WEB DESIGN</h3>
                         </div>          
                     </div>
-                    <div className="col-lg-4 col-md-6 mb-4 mb-lg-0" >
+                    <div className="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1000" >
                         <div className='service-section mobile-service-view'>
                             <div className="icon text-center mb-5">
                             <span className='person'> <i className="n-icon" data-icon='person' ></i></span>
@@ -67,7 +67,7 @@ export default function Service() {
                             <h3 className="service-text position-relative text-center">WEB Developer</h3>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 mb-4 mb-lg-0" >
+                    <div className="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1000" >
                         <div className='service-section'>
                             <div className="icon text-center mb-5">
                             <span className='frontend-developer'> <i className="n-icon" data-icon='frontend-developer' ></i></span>

@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function Skill() {
     return (
-        <div className="container" data-aos="fade-up" data-aos-duration="1000" >
-            <div className="skill p-3" id='skill'>
+        <div className="container" id='skill' data-aos="fade-up" data-aos-duration="1000" >
+            <div className="skill p-3" >
                 <div className='heading text-center'>
                     <span className="heading-1">Skill</span>
                     <span className="heading-2 head-2">Skill</span>
                 </div>
-                <div className="row mt-5 pt-4">
+                <div className="row mt-5 pt-4" data-aos="fade-up" data-aos-duration="1000">
                     <div className="col-md-6">
                         <div className="progress-section">
                             <h3>HTML5</h3>
