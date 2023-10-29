@@ -1,7 +1,19 @@
 import React from 'react'
 
 export default function Header() {
-  
+  const handleNavClick = (e) => {
+    e.preventDefault();
+    const targetId = e.target.getAttribute('data-target');
+    const targetSection = document.querySelector(targetId);
+    if (targetSection) {
+      const navbarHeight = 0; // Set this to match your navbar's actual height
+      const offset = targetSection.offsetTop - navbarHeight;
+      window.scrollTo({
+        top: offset,
+        behavior: 'smooth',
+      });
+    }
+  };
   return (
     <div>
       <nav className="navbar  navbar-expand-lg fixed-top container" >
@@ -18,25 +30,25 @@ export default function Header() {
       <div className="offcanvas-body justify-content-center justify-content-lg-end">
       <ul className="navbar-nav">
            <li className="nav-item position-relative">
-             <a className="nav-link active" href="#about"  data-target="#about">Home</a>
+             <a className="nav-link active" href="#about"  data-target="#about" onClick={handleNavClick}>Home</a>
            </li>
            <li className="nav-item position-relative">
-             <a className="nav-link" href="#about"  data-target="#about">About</a>
+             <a className="nav-link" href="#about"  data-target="#about"onClick={handleNavClick}>About</a>
            </li>
            <li className="nav-item position-relative">
-             <a className="nav-link" href="#resume "  data-target="#resume">Resume</a>
+             <a className="nav-link" href="#resume "  data-target="#resume"  onClick={handleNavClick}>Resume</a>
            </li>
            <li className="nav-item position-relative">
-             <a className="nav-link" href="#skill "  data-target="#skill">Skill</a>
+             <a className="nav-link" href="#skill "  data-target="#skill"  onClick={handleNavClick}>Skill</a>
            </li>
            <li className="nav-item position-relative">
-             <a className="nav-link" href="#service"  data-target="#service">Services</a>
+             <a className="nav-link" href="#service"  data-target="#service"  onClick={handleNavClick}>Services</a>
            </li>
            <li className="nav-item position-relative">
-             <a className="nav-link" href="#project"  data-target="#project">Projects</a>
+             <a className="nav-link" href="#project"  data-target="#project" onClick={handleNavClick} >Projects</a>
            </li>
            <li className="nav-item position-relative">
-             <a className="nav-link" href="#contact">Contact</a>
+             <a className="nav-link" href="#contact" data-target="#contact"onClick={handleNavClick}>Contact</a>
            </li>
 
          </ul>
