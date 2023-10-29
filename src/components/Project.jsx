@@ -13,7 +13,8 @@ export default function Project() {
             <div className="row mt-5 ">
                 <div className="col-lg-4 project-section ">
                     <div className="project project-1 d-flex justify-content-center align-items-center position-relative">
-                        <h3 className="text-center position-absolute">Educational Website <br /> Krutionela</h3>
+                        <h3 className="text-center position-absolute">Educational Website - <br /> 
+                         EDU Meeting   </h3>
                        
                     </div>
                 </div>
@@ -33,7 +34,8 @@ export default function Project() {
                 <div className="col-lg-4 project-section ">
                     <div className="project project-1 d-flex justify-content-center align-items-center position-relative">
 
-                        <h3 className="text-center position-absolute">Educational Website <br /> Krutionela</h3>
+                        <h3 className="text-center position-absolute">Cattle Management</h3>
+                        <span className="live position-absolute">Comming Soon</span>
                     </div>
                 </div>
 

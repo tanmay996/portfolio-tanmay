@@ -18,7 +18,7 @@ export default function Resume() {
           <div className="resume-section">
             <span className="resume-section-head d-block mb-2 ">EDUCATION</span>
             <h2 className="resume-section-subhead">Ganpat University</h2>
-            <span className="resume-text">Bachelor of technolody</span>
+            <span className="resume-text mb-3">Bachelor of technolody</span>
             <h2 className="resume-section-subhead"> Om Shanti English Medium School</h2>
             <span className="resume-text">Higher Secondary</span>
           </div>
