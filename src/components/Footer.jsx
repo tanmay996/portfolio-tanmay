@@ -13,10 +13,10 @@ export default function Footer() {
                     <div className="col-md mb-4 mb-md-0">
                         <h2>Links</h2>
                         <ul className="list-unstyled">
-                            <li><i className="bi bi-arrow-right me-2"></i><a href=''>Home</a></li>
-                            <li><i className="bi bi-arrow-right me-2"></i><a href='#about'>About</a></li>
-                            <li><i className="bi bi-arrow-right me-2"></i><a href='#service'>Service</a></li>
-                            <li><i className="bi bi-arrow-right me-2"></i><a href='#project'>Projects</a></li>
+                            <li><i className="bi bi-house-up me-2"></i><a href=''>Home</a></li>
+                            <li><i className="bi bi-person-vcard me-2"></i><a href='#about'>About</a></li>
+                            <li><i className="bi bi-boxes me-2"></i><a href='#service'>Service</a></li>
+                            <li><i className="bi bi-stack me-2"></i><a href='#project'>Projects</a></li>
                         </ul>
                     </div>
                     <div className="col-md mb-4 mb-md-0">
