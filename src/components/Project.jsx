@@ -1,16 +1,14 @@
 import React from 'react'
 export default function Project() {
     return (
-        <>
+
         <div className="container" id='project'>
 
             <div className='heading text-center pb-3'>
                 <span className="heading-1">My Projects</span>
                 <span className="heading-2 head-2">Projects</span>
             </div>
-        </div>
-        <div className="container">
-            <div className="row mt-5 ">
+            <div className="row m-0 mt-5 ">
                 <div className="col-lg-4 project-section ">
                     <div className="project project-1 d-flex justify-content-center align-items-center position-relative">
                         <h3 className="text-center position-absolute">Educational Website - <br /> 
@@ -32,15 +30,16 @@ export default function Project() {
                     </a>
                 </div>
                 <div className="col-lg-4 project-section ">
-                    <div className="project project-1 d-flex justify-content-center align-items-center position-relative">
+                    <div className="project project-4 d-flex justify-content-center align-items-center position-relative">
 
-                        <h3 className="text-center position-absolute">Cattle Management</h3>
+                        {/* <h3 className="text-center position-absolute">Cattle Management</h3> */}
                         <span className="live position-absolute">Comming Soon</span>
                     </div>
                 </div>
 
             </div>
         </div>
-        </>
+      
+    
     )
 }

@@ -59,7 +59,7 @@ export default function Service() {
                         </div>          
                     </div>
                     <div className="col-lg-4 col-md-6 mb-4 mb-lg-0" >
-                        <div className='service-section'>
+                        <div className='service-section mobile-service-view'>
                             <div className="icon text-center mb-5">
                             <span className='person'> <i className="n-icon" data-icon='person' ></i></span>
                             <span className='person1'> <i className="n-icon" data-icon='person1' ></i></span>

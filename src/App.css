@@ -39,6 +39,7 @@ body{
 
 .offcanvas{
   background-color:#ffbd39;
+  width: 50%;
 }
 .nav-item{
   margin: 0.2rem 20px !important;
@@ -269,6 +270,7 @@ body{
 
 /* Project style start here */
 .project-section{
+  
   height: 280px;
   margin-bottom: 30px;
   
@@ -296,15 +298,12 @@ body{
     top: 15%;
     transition:0.5s ease-in-out all;
     visibility:hidden;
-    /* display: none; */
     
   }
   .project-1{
     cursor:not-allowed;
     background: url("./components/image/meeting.jpeg") no-repeat center;
-   
     background-size: cover;
-    /* background-position:100% 0%; */
   }
   .project-2{
     cursor:pointer;
@@ -316,7 +315,12 @@ body{
   .project-3{
     cursor:pointer;
     background: url("./components/image/Krutionelaa.jpg") no-repeat center;
-   
+    background-size: cover;
+    /* background-position:100% 0%; */
+  }
+  .project-4{
+    cursor:not-allowed;
+    background: url("./components/image/cattle-management.jpeg") no-repeat center;
     background-size: cover;
     /* background-position:100% 0%; */
   }
@@ -405,6 +409,10 @@ body{
 .footer li{
   margin-bottom: 10px;
 }
+.footer a{
+  color: #999999;
+  text-decoration: none;
+}
 .social{
   height: 100px;
   width: 100%;
@@ -448,6 +456,7 @@ body{
   .container{
     max-width: 100% !important;
   }
+ 
   .nav-link::after{
 
     background-color: #ffffff;
@@ -522,7 +531,7 @@ body{
     margin-top: 48px ;
   }
   .heading-2{
-    font-size: 100px;
+    font-size: 80px;
 
 }
 .contact-img{
@@ -531,9 +540,54 @@ body{
 .project-3{
   background-position:50% 0% ;
 }
+/* service style start here */
+
+.service-section:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.service-section:hover .service-text{
+  color: #fff;
+}
+.service-section:hover .service-text:after{
+  background: #ffbd39;
+}
+.design1 , 
+.person,
+.frontend-developer1{
+  display: none;
+} 
+
+.service-section:hover .design,
+.mobile-service-view:hover .person1,
+.service-section:hover .frontend-developer,
+.person1{
+    display: block;
+}
+.service-section:hover .design1,
+.mobile-service-view:hover .person,
+.service-section:hover .frontend-developer1
+{
+  display: none;
+}
+
+.mobile-service-view,
+.mobile-section:hover
+{
+  background-color: #ffbd39 !important;
+}
+.mobile-service-view .service-text:after,
+.mobile-service-view:hover .service-text:after{
+
+  background: #000000 !important;
+
+}
+.mobile-service-view .service-text{
+  color: #000000 !important;
+}
 .footer h2{
   margin-bottom: 20px;
 }
+
 }
 @media  (max-width:575px){
 
