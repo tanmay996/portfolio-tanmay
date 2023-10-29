@@ -4,13 +4,13 @@ export default function Footer() {
         <div className='container mt-5'>
             <div className="footer">
                 <div className="row">
-                    <div className="col-md">
+                    <div className="col-md mb-4 mb-md-0">
                         <h2>About</h2>
                         <p>
                         "Frontend developer proficient in HTML, CSS, JavaScript, Bootstrap, and React JS. Committed to creating attractive, user-friendly web interfaces."
                         </p>
                     </div>
-                    <div className="col-md">
+                    <div className="col-md mb-4 mb-md-0">
                         <h2>Links</h2>
                         <ul className="list-unstyled">
                             <li><i className="bi bi-arrow-right me-2"></i>Home</li>
@@ -19,7 +19,7 @@ export default function Footer() {
                             <li><i className="bi bi-arrow-right me-2"></i>Projects</li>
                         </ul>
                     </div>
-                    <div className="col-md">
+                    <div className="col-md mb-4 mb-md-0">
                         <h2>Services</h2>
                         <ul className="list-unstyled">
                             <li><i className="bi bi-arrow-right me-2"></i>Web Design</li>

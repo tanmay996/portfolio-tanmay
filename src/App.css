@@ -509,9 +509,7 @@ body{
   }
 
   .btn-download{
-    
     position: relative;
-    
     left: 50%;
     transform: translate(-50%,0%);
   }
@@ -531,8 +529,10 @@ body{
   height: 350px;
 }
 .project-3{
-  /* background-size: 100% 100%; */
   background-position:50% 0% ;
+}
+.footer h2{
+  margin-bottom: 20px;
 }
 }
 @media  (max-width:575px){
