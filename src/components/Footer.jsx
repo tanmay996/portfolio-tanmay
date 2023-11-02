@@ -2,10 +2,10 @@ import React from 'react'
 export default function Footer() {
     return (
         <div className='container mt-5'>
-            <div className="footer">
+            <div className="footer pt-5">
                 <div className="row">
                     <div className="col-md mb-4 mb-md-0" >
-                        <h2  data-aos="zoom-in">About</h2>
+                        <h2 >About</h2>
                         <p>
                         "Frontend developer proficient in HTML, CSS, JavaScript, Bootstrap, and React JS. Committed to creating attractive, user-friendly web interfaces."
                         </p>

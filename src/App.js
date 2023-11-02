@@ -20,9 +20,9 @@ function App() {
 
   return (
     <div className='home bg-black' >
-      <Header />
-      <About />
-      <Resume   />
+     <Header /> 
+     <About /> 
+     <Resume   /> 
       <Service />
       <Skill />
       <Project />

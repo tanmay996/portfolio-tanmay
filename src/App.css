@@ -35,10 +35,14 @@ body{
   padding: 0.5rem 0px !important; 
   letter-spacing: 1px;
 }
+.nav-item i{
+  display: none;
+  font-size: 27px !important;
+}
 
 .offcanvas{
   background-color:#ffbd39;
-  width: 50%;
+  
 }
 .nav-item{
   margin: 0.2rem 20px !important;
@@ -68,6 +72,8 @@ body{
 .bi-text-paragraph{
   color: #ffbd39 !important;
 }
+
+
 
 /* About me  */
 #about,
@@ -154,7 +160,7 @@ body{
   height: 100%;
   padding: 30px;
   border-radius: 5px;
-  cursor: pointer;
+  box-shadow: #999999 2px 2px 3px;
   background-color: rgba(255, 255, 255, 0.1);
   }
   .resume-section-head{
@@ -164,6 +170,7 @@ body{
   }
   .resume-section-body{
     font-size: 16px;
+    letter-spacing: 1px;
     line-height: 1.8;
     font-weight: 400;
     color: #999999;
@@ -184,14 +191,13 @@ body{
     font-size: 26px;
     color: #fff;
   }
-.resume-section:hover{
+/* .resume-section:hover{
   box-shadow: 0 0 5px 2px #ffbd39;
-}
+} */
 /* service style start here */
 
 .service-section{
   padding: 2em 2em 5em;
-  cursor: pointer;
   transition: .3s all ease;
   background-color:rgba(255, 255, 255, 0.1);
 }
@@ -462,30 +468,55 @@ body{
     background-color: #ffffff;
 
   }
+ 
+  .navbar .active::after{
+    display: none;
+  }
+  
+  .nav-item:hover .nav-link::after{
+    
+    width: 100% !important
+  }
+
+  .nav-item i{
+    display: block;
+  }
   .resume-section{
     width: 100% ;
   }
   .offcanvas{
+      width: 40%;
     height: 100vh;
   }
-  .offcanvas-body{
+  /* .offcanvas-body{
    display: flex;
-
-  }
+  
+  } */
   .offcanvas-title{
     font-size: 26px;
   }
-  .navbar-nav{
-    row-gap: 5%;
+ 
+  .nav-item{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 0.2rem 25% 2rem!important;
+    
   }
 
   .nav-link{
     text-align: center;
     font-size: 20px !important;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
   color: #000000 !important;
+  margin-left: 25%;
+  transition: font-weight 0.3s ease;
 }
 
+.nav-link:focus{
+ 
+  font-weight: 900 !important;
+}
  
   .heading-description{
     margin: 10px 0px;
@@ -509,6 +540,20 @@ body{
   .container{
     max-width: 690px;
   }
+  .nav-item{
+   
+    margin: 0.2rem 10% 2rem!important;
+    
+  }
+  
+
+  .nav-link{
+    text-align: center;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+  color: #000000 !important;
+  margin-left: 18%;
+}
   .heading-2{
     left: 50%;
     transform: translate(-50%,0%);
@@ -543,54 +588,36 @@ body{
 /* service style start here */
 
 .service-section:hover{
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color:rgba(255, 255, 255, 0.1);
 }
+.service-section:hover .design1,
+.service-section:hover .person1,
+.service-section:hover .frontend-developer1{
+    display: none;
+}
+.service-section:hover .design,
+.service-section:hover .person,
+.service-section:hover .frontend-developer{
+    display: block;
+}
+
 .service-section:hover .service-text{
   color: #fff;
 }
 .service-section:hover .service-text:after{
   background: #ffbd39;
 }
-.design1 , 
-.person,
-.frontend-developer1{
-  display: none;
-} 
-
-.service-section:hover .design,
-.mobile-service-view:hover .person1,
-.service-section:hover .frontend-developer,
-.person1{
-    display: block;
-}
-.service-section:hover .design1,
-.mobile-service-view:hover .person,
-.service-section:hover .frontend-developer1
-{
-  display: none;
-}
-
-.mobile-service-view,
-.mobile-section:hover
-{
-  background-color: #ffbd39 !important;
-}
-.mobile-service-view .service-text:after,
-.mobile-service-view:hover .service-text:after{
-
-  background: #000000 !important;
-
-}
-.mobile-service-view .service-text{
-  color: #000000 !important;
-}
 .footer h2{
   margin-bottom: 20px;
 }
 
 }
-@media  (max-width:575px){
 
+@media (max-width:576px){
+  .offcanvas{
+    width: 60% !important;
 }
+}
+
 
 

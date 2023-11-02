@@ -29,26 +29,34 @@ export default function Header() {
       </div>
       <div className="offcanvas-body justify-content-center justify-content-lg-end">
       <ul className="navbar-nav">
-           <li className="nav-item position-relative">
-             <a className="nav-link active" href="#about"  data-target="#about" onClick={handleNavClick}>Home</a>
+           <li className="nav-item ">
+           <i className="bi bi-house-fill"></i>
+             <a className="nav-link position-relative " href="#about"  data-target="#about" onClick={handleNavClick}>Home</a>
            </li>
-           <li className="nav-item position-relative">
-             <a className="nav-link" href="#about"  data-target="#about" onClick={handleNavClick}>About</a>
+           <li className="nav-item ">
+           <i className="bi bi-journal-bookmark-fill"></i>
+             <a className="nav-link position-relative" href="#about"  data-target="#about" onClick={handleNavClick}>About</a>
            </li>
-           <li className="nav-item position-relative">
-             <a className="nav-link" href="#resume "  data-target="#resume"onClick={handleNavClick}>Resume</a>
+           <li className="nav-item ">
+           <i className="bi bi-person-lines-fill"></i>
+ 
+             <a className="nav-link position-relative" href="#resume "  data-target="#resume"onClick={handleNavClick}>Resume</a>
            </li>
-           <li className="nav-item position-relative">
-             <a className="nav-link" href="#service"  data-target="#service"onClick={handleNavClick}>Services</a>
+           <li className="nav-item ">
+           <i className="bi bi-database-fill-gear"></i>
+             <a className="nav-link position-relative " href="#service"  data-target="#service"onClick={handleNavClick}>Services</a>
            </li>
-           <li className="nav-item position-relative">
-             <a className="nav-link" href="#skill"  data-target="#skill"onClick={handleNavClick}>Skill</a>
+           <li className="nav-item ">
+           <i className="bi bi-award-fill"></i>
+             <a className="nav-link position-relative " href="#skill"  data-target="#skill"onClick={handleNavClick}>Skill</a>
            </li>
-           <li className="nav-item position-relative">
-             <a className="nav-link" href="#project"  data-target="#project" onClick={handleNavClick}>Projects</a>
+           <li className="nav-item ">
+           <i className="bi bi-boxes"></i>
+             <a className="nav-link position-relative " href="#project"  data-target="#project" onClick={handleNavClick}>Projects</a>
            </li>
-           <li className="nav-item position-relative">
-             <a className="nav-link" href="#contact" data-target="#contact" onClick={handleNavClick}>Contact</a>
+           <li className="nav-item ">
+           <i className="bi bi-chat-square-text-fill"></i>
+             <a className="nav-link position-relative " href="#contact" data-target="#contact" onClick={handleNavClick}>Contact</a>
            </li>
 
          </ul>
