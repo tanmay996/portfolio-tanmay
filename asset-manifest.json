@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-tanmay/static/css/main.398fd7d8.css",
-    "main.js": "/portfolio-tanmay/static/js/main.410fb95c.js",
+    "main.css": "/portfolio-tanmay/static/css/main.ca9c3416.css",
+    "main.js": "/portfolio-tanmay/static/js/main.3ca609be.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-tanmay/static/js/787.1ed0c42c.chunk.js",
     "static/media/loader.gif": "/portfolio-tanmay/static/media/loader.114a814628df291e7318.gif",
     "static/media/meeting.jpeg": "/portfolio-tanmay/static/media/meeting.fab9062e09afa7aaacca.jpeg",
@@ -12,12 +12,12 @@
     "static/media/about.jpg": "/portfolio-tanmay/static/media/about.8ec2b9e22a1bd77bc0cf.jpg",
     "static/media/cattle-management.jpeg": "/portfolio-tanmay/static/media/cattle-management.a2e7b0a29cba836e44fd.jpeg",
     "index.html": "/portfolio-tanmay/index.html",
-    "main.398fd7d8.css.map": "/portfolio-tanmay/static/css/main.398fd7d8.css.map",
-    "main.410fb95c.js.map": "/portfolio-tanmay/static/js/main.410fb95c.js.map",
+    "main.ca9c3416.css.map": "/portfolio-tanmay/static/css/main.ca9c3416.css.map",
+    "main.3ca609be.js.map": "/portfolio-tanmay/static/js/main.3ca609be.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-tanmay/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.398fd7d8.css",
-    "static/js/main.410fb95c.js"
+    "static/css/main.ca9c3416.css",
+    "static/js/main.3ca609be.js"
   ]
 }
