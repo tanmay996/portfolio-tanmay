@@ -11,7 +11,7 @@
   height: 100vh;
   width: 50%;
   background-color:#F8C407;
-  animation: loader 3.1s forwards ;
+  animation: loader 3.1s alternate ;
 
   
 }
@@ -32,13 +32,24 @@
 .loader-gif{
   width: 500px;
   height: 500px;
-  border-radius: 50%;
+  background-color: #F8C407;
+  /* border-radius: 50%; */
   background:url("../public/loader.gif") no-repeat;
+  /* background-size: contain; */
   background-size: contain;
   position: absolute;
   left: 50%;
-  top: 15%;
-  transform: translate(-50% , -30%);
+  top: 60%;
+  
+  transform: translate(-50% , -50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+@media (max-width:576px){
+  .loader-gif{
+    width: 250px;
+    height:250px;
+    top: 53%;
+  }
 }
 
 

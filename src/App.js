@@ -41,7 +41,7 @@ function App() {
         </div>
       ) : (
         // Content with AOS animations
-        <div>
+        <div className='myhome'>
           <Header />
           <About />
           <Resume />
