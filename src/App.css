@@ -62,7 +62,7 @@ body {
 
 .offcanvas {
   background-color: #ffbd39;
-
+  transition: transform 0.6s ease-in-out
 }
 
 .nav-item {
@@ -541,6 +541,7 @@ body {
   }
 
   .nav-link::after {
+  transition: 0.8s linear;
 
     background-color: #ffffff;
 
@@ -557,6 +558,9 @@ body {
 
   .nav-item i {
     display: block;
+    /* margin: 0% 25%; */
+    margin-right: 25%;
+
   }
 
   .resume-section {
@@ -577,7 +581,7 @@ body {
   }
 
   .nav-item {
-    display: flex;
+    /* display: flex; */
     /* justify-content: space-between; */
     align-items: center;
     margin: 0.2rem 25% 2rem !important;
@@ -585,12 +589,14 @@ body {
   }
 
   .nav-link {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
     text-align: center;
     font-size: 20px !important;
     font-weight: 500 !important;
     color: #000000 !important;
-    margin-left: 25%;
-    transition: font-weight 0.3s ease;
+    transition: font-weight 0.2s ease;
   }
 
   .nav-link:focus {
@@ -628,12 +634,14 @@ body {
   .nav-item {
 
     margin: 0.2rem 10% 2rem !important;
+    
 
   }
 
 
   .nav-link {
-    margin-left: 18%;
+    /* margin: 0.2rem 20% 2rem !important; */
+
   }
 
   .heading-2 {
@@ -712,8 +720,12 @@ body {
 @media (max-width:576px) {
 
   .nav-item {
+    margin: 0rem 16% 2rem !important;
 
-    margin: 0.2rem 14% 2rem !important;
+  }
+  .nav-item i {
+    display: block;
+    margin-right: 14%;
 
   }
 
