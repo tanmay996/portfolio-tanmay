@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from './pdf/Tanmay_Bhunja_Resume.pdf'
+import resume from './pdf/Tanmay_Bhunia_Resume.pdf'
 
 
 export default function About() {
