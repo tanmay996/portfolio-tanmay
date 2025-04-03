@@ -5,6 +5,7 @@ export default function Header() {
     e.preventDefault();
     const targetId = e.target.getAttribute('data-target');
     const targetSection = document.querySelector(targetId);
+    
     if (targetSection) {
       const navbarHeight = 0;
       const offset = targetSection.offsetTop - navbarHeight;
