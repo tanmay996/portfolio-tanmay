@@ -27,6 +27,26 @@ export default function Skill() {
                         </div>
 
                     </div>
+
+                    <div className="col-md-6">
+                        <div className="progress-section">
+                            <h3>Tailwind Css</h3>
+                            <div className="progress">
+                                <div className="progress-bar position-relative" role="progressbar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="85"><span className="position-absolute">85%</span></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="col-md-6">
+                        <div className="progress-section">
+                            <h3>Bootstrap5</h3>
+                            <div className="progress">
+                                <div className="progress-bar position-relative" role="progressbar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span className="position-absolute">85%</span></div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="col-md-6">
                         <div className="progress-section">
                             <h3>Javascript</h3>
@@ -36,15 +56,7 @@ export default function Skill() {
                         </div>
 
                     </div>
-                    <div className="col-md-6">
-                        <div className="progress-section">
-                            <h3>Bootstrap5</h3>
-                            <div className="progress">
-                                <div className="progress-bar position-relative" role="progressbar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span className="position-absolute">85%</span></div>
-                            </div>
-                        </div>
-
-                    </div>
+                    
                     <div className="col-md-6">
                         <div className="progress-section">
                             <h3>Jquery</h3>
@@ -58,11 +70,13 @@ export default function Skill() {
                         <div className="progress-section">
                             <h3>React JS</h3>
                             <div className="progress">
-                                <div className="progress-bar position-relative" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"><span className="position-absolute">50%</span></div>
+                                <div className="progress-bar position-relative" role="progressbar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span className="position-absolute">85%</span></div>
                             </div>
                         </div>
 
                     </div>
+
+                  
                 </div>
             </div>
 

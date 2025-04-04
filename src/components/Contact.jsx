@@ -1,6 +1,6 @@
 import React from 'react';
 // import "../svgicon";
-export default function Contanct() {
+export default function Contact() {
    
     return (
         <div className='container' id='contact' data-aos="fade-up" data-aos-duration="1000" >
@@ -36,7 +36,7 @@ export default function Contanct() {
                             <i className="bi bi-send-fill fs-3"></i>
                             </div>
                             <h3 className="mb-4">Email Addess</h3>
-                            <p>tanmaybhunia16@gmail.com</p>
+                            <p>tanmaybhunia996@gmail.com</p>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000">

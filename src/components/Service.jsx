@@ -55,7 +55,7 @@ export default function Service() {
                                    <span className='design1'> <i className="n-icon" data-icon='design1' ></i></span>
     
                             </div>
-                            <h3 className="service-text position-relative text-center">WEB DESIGN</h3>
+                            <h3 className="service-text position-relative text-center">WEB Developer</h3>
                         </div>          
                     </div>
                     <div className="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1000" >
@@ -64,7 +64,7 @@ export default function Service() {
                             <span className='person'> <i className="n-icon" data-icon='person' ></i></span>
                             <span className='person1'> <i className="n-icon" data-icon='person1' ></i></span>
                             </div>
-                            <h3 className="service-text position-relative text-center">WEB Developer</h3>
+                            <h3 className="service-text position-relative text-center">React JS Developer</h3>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1000" >

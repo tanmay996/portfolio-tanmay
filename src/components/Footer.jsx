@@ -7,7 +7,7 @@ export default function Footer() {
                     <div className="col-md mb-4 mb-md-0" >
                         <h2 >About</h2>
                         <p>
-                        "Frontend developer proficient in HTML, CSS, JavaScript, Bootstrap, and React JS. Committed to creating attractive, user-friendly web interfaces."
+                        "As a Frontend developer proficient in HTML, CSS, JavaScript, Bootstrap, Tailwind Css and React JS. Committed to creating attractive, user-friendly web interfaces."
                         </p>
                     </div>
                     <div className="col-md mb-4 mb-md-0" >

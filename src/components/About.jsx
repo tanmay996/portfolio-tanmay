@@ -16,7 +16,7 @@ export default function About() {
                         <span className="heading-1">About Me</span>
                         <span className="heading-2">About</span>
                     </div>
-                    <p className='heading-description'>"As a novice frontend developer, I possess a strong foundation in HTML, CSS, JavaScript, Bootstrap and React JS. Committed to crafting visually appealing and responsive web interfaces, with a keen eye for design and user experience."</p>
+                    <p className='heading-description'>"As a Frontend Developer with 1.3+ years of experience in building responsive and scalable web applications using React.js, Tailwind CSS, JavaScript, and Bootstrap. Adept at UI/UX design, component reusability, API integration, and performance optimization. Passionate about crafting seamless user experiences and collaborating in agile development environments."</p>
                     <table className="about-detail mb-lg-5 mb-md-2 mx-auto mx-md-0">
                         <tbody>
                             <tr>

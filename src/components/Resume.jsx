@@ -39,11 +39,11 @@ export default function Resume() {
           <div className="resume-section">
             <span className="resume-section-head d-block mb-2 ">PROFILE HIGHLIGHT</span>
             <ul>
-              <li className='pb-3'><span className="resume-text">Making responsive website</span></li>
-              <li className='pb-3'><span className="resume-text">knowledge of sql</span></li>
-              <li className='pb-3'><span className="resume-text">Conversion psd to html css</span></li>
-              <li className='pb-3'><span className="resume-text">Conversion figma to html css</span></li>
-              <li className='pb-3'><span className="resume-text">Good uderstanding in oops concept</span></li>
+              <li className='pb-3'><span className="resume-text">1.3+ Years Frontend Experience</span></li>
+              <li className='pb-3'><span className="resume-text">React + Tailwind Developer</span></li>
+              <li className='pb-3'><span className="resume-text">Performance-Focused UI Development</span></li>
+              <li className='pb-3'><span className="resume-text">Figma to Code Conversion</span></li>
+              <li className='pb-3'><span className="resume-text">Responsive, Mobile-First Designs</span></li>
             </ul>
           </div>
         </div>

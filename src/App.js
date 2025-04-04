@@ -10,7 +10,7 @@ import Resume from './components/Resume';
 import Service from './components/Service';
 import Skill from './components/Skill';
 import Project from './components/Project';
-import Contanct from './components/Contanct';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -48,7 +48,7 @@ function App() {
           <Service />
           <Skill />
           <Project />
-          <Contanct />
+          <Contact />
           <Footer />
         </div>
       )}
