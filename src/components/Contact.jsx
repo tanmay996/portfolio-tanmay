@@ -1,7 +1,16 @@
 import React from 'react';
 // import "../svgicon";
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 export default function Contact() {
-   
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        toast.success("Thanks for contacting me!");
+    }
+
     return (
         <div className='container' id='contact' data-aos="fade-up" data-aos-duration="1000" >
             <div className="contact p-3">
@@ -13,18 +22,18 @@ export default function Contact() {
                     <div className="col-md-6 col-lg-3">
                         <div className="contact-section p-4 text-center">
                             <div className="contact-icon d-flex align-items-center justify-content-center mx-auto">
-                            <i className="bi bi-pin-map-fill fs-3"></i>
+                                <i className="bi bi-pin-map-fill fs-3"></i>
                             </div>
                             <h3 className="mb-4">Address</h3>
                             <p>
-                                Morbi
+                                India
                             </p>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000">
                         <div className="contact-section p-4 text-center">
                             <div className="contact-icon d-flex align-items-center justify-content-center mx-auto">
-                            <i className="bi bi-telephone-fill fs-3"></i>
+                                <i className="bi bi-telephone-fill fs-3"></i>
                             </div>
                             <h3 className="mb-4">Contact number</h3>
                             <p>+91 9327283868</p>
@@ -33,7 +42,7 @@ export default function Contact() {
                     <div className="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000">
                         <div className="contact-section p-4 text-center">
                             <div className="contact-icon d-flex align-items-center justify-content-center mx-auto">
-                            <i className="bi bi-send-fill fs-3"></i>
+                                <i className="bi bi-send-fill fs-3"></i>
                             </div>
                             <h3 className="mb-4">Email Addess</h3>
                             <p>tanmaybhunia996@gmail.com</p>
@@ -42,7 +51,7 @@ export default function Contact() {
                     <div className="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000">
                         <div className="contact-section p-4 text-center">
                             <div className="contact-icon d-flex align-items-center justify-content-center mx-auto">
-                            <i className="bi bi-linkedin fs-3"></i>
+                                <i className="bi bi-linkedin fs-3"></i>
                             </div>
                             <h3 className="mb-4">Linkdin</h3>
                             <p>https://www.linkedin.com/in/tanmay-bhunia-481a1524b/</p>
@@ -56,22 +65,22 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className="col-md-6 px-0">
-                        <form action="#" className="p-4 p-md-5">
+                        <form onSubmit={handleSubmit} className="p-4 p-md-5">
                             <div className="form-group ">
                                 <input type="text" className='form-control' placeholder="Your Name"></input>
-                                </div>
+                            </div>
                             <div className="form-group">
                                 <input type="text" className='form-control' placeholder="Your Email">
-                                    </input>
-                                    </div>
-                            <div className="form-group"><input type="text" className='form-control' placeholder="Subject">
                                 </input>
-                                </div>
+                            </div>
+                            <div className="form-group"><input type="text" className='form-control' placeholder="Subject">
+                            </input>
+                            </div>
                             <div className="form-group">
                                 <textarea cols="30" rows="7" type="text" className='form-control' placeholder="Message"></textarea>
-                                </div>
+                            </div>
                             <div className="form-group">
-                                <button className="btn btn-download py-3 px-5 ">SEND MESSAGE</button>
+                                <button type='submit' className="btn btn-download py-3 px-5 ">SEND MESSAGE</button>
                             </div>
                         </form>
                     </div>

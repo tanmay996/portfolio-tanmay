@@ -30,11 +30,11 @@ export default function Project() {
                     </a>
                 </div>
                 <div className="col-lg-4 project-section " data-aos="fade-up" data-aos-duration="1000">
-                    <div className="project project-4 d-flex justify-content-center align-items-center position-relative">
+                    <a  href="https://tanmay996.github.io/tantang_house/" className="project project-4 d-flex justify-content-center align-items-center position-relative">
 
-                        {/* <h3 className="text-center position-absolute">Cattle Management</h3> */}
-                        <span className="live position-absolute">Comming Soon</span>
-                    </div>
+                        <h3 className="text-center position-absolute">Hotel Management</h3>
+                        <span className="live position-absolute">Live demo</span>
+                    </a>
                 </div>
 
             </div>

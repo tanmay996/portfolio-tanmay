@@ -378,8 +378,8 @@ body {
 }
 
 .project-4 {
-  cursor: not-allowed;
-  background: url("./components/image/cattle-management.jpeg") no-repeat center;
+  cursor: pointer;
+  background: url("./components/image/Tantang_House.png") no-repeat center;
   background-size: cover;
   /* background-position:100% 0%; */
 }

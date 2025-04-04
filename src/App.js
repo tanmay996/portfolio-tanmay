@@ -12,6 +12,8 @@ import Skill from './components/Skill';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -50,6 +52,19 @@ function App() {
           <Project />
           <Contact />
           <Footer />
+
+          <ToastContainer
+            position="top-right"
+            autoClose={3000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            style={{ zIndex: 20000 }}
+          />
         </div>
       )}
     </div>
